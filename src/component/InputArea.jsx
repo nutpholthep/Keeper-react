@@ -43,7 +43,7 @@ export default function InputArea({itemsData}) {
           onChange={addNote}
           value={note}
         ></textarea>
-        <button className="bg-yellow-400 rounded-full text-2xl p-3 absolute right-0 bottom-0 z-40 transition-all delay-100 hover:scale-110 hover:bg-yellow-600 hover:text-yellow-50">Add</button>
+        <button className="bg-yellow-400 rounded-full text-2xl p-3 absolute right-0 -bottom-5 z-40 transition-all delay-100 hover:scale-110 hover:bg-yellow-600 hover:text-yellow-50 px-10">Add</button>
       </form>
     </div>
   );
